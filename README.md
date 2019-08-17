@@ -30,13 +30,27 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Describe the biggest difference between `.forEach` & `.map`.
 
+.forEach runs a function on each array element, where .map can create an array where the values are the output of the function run on each element
+
 2. What is the difference between a function and a method?
+
+methods are called on objects and functions are not
+example:  Object.Method() vs let thing = function(args)
 
 3. What is closure?
 
+closure is a nested function's ability to access variables from higher up in the function scope
+
 4. Describe the four rules of the 'this' keyword.
 
+--1. Window binding - the scope of 'this' will refer to the top level window object
+--2. Implicit binding - the scope of 'this' will refer to the object using it
+--3. New binding - the scope of 'this' refers to the instance of the object that uses it
+--4. Explicit binding - the scope of 'this' refers to the object that used the call method to inherit the attribute 'this' is referring to
+
 5. Why do we need super() in an extended class?
+
+to assign values to variables that have been inherited from the super class
 
 ## Project Set up
 
